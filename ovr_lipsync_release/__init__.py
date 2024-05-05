@@ -5,7 +5,7 @@ bl_info = {
     "version" : (1, 0),
     "blender" : (4, 0, 2),
     "location" : "3D View > Sidebar > OVR Lipsync",
-    "doc_url" : "github.com",
+    "doc_url" : "https://github.com/N1nDr0id/ovr-lipsync-blender",
     "warning" : "This addon only works with mono .wav files.",
     "category" : "3D View"
 }
