@@ -3,7 +3,9 @@ A Blender 4.0.2 addon to automate lipsync for characters that follow the Oculus 
 This can be used either as the final result for your project, or as a starting point for further animation.
 
 To use this addon, you must select a model that has shapekeys on it. Ideally, your model should have the shapekeys listed in the [Oculus Viseme Reference](https://developer.oculus.com/documentation/native/audio-ovrlipsync-viseme-reference/).
+
 After selecting the desired mesh, audio file, viseme shapekeys, and starting point for the animation, keyframes will be inserted onto the selected shapekeys that match with the given audio.
+
 In addition, this program only works with mono .wav files. Attempting to load a stereo .wav file will make the program fail to execute.
 
 <img src="https://github.com/N1nDr0id/ovr-lipsync-blender/blob/main/docs/addon_preview.png?raw=true" alt="An example image of the lipsync addon, showing off the various features">
