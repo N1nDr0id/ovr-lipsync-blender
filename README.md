@@ -12,6 +12,7 @@ In addition, this program only works with mono .wav files. Attempting to load a 
 
 ## Known issues
 <ul>
+  <li>This addon only works on Windows machines, as it uses an .exe file to process audio. Linux and MacOS versions may be made available in the future, but I can't guarantee this.</li>
   <li>The addon only works with mono .wav files, and does not handle stereo .wav files.</li>
   <li>The ProcessWAV.exe and OVRLipSync.dll files must be located alongside the __init__.py file, otherwise the addon will fail to apply the shapekeys.</li>
   <li>This program has not been extensively tested and should only be used at your own risk. It only modifies the selected viseme shaapekeys, so it <em>should</em> be safe to use alongside other animations, but this has not been tested in full.</li>
